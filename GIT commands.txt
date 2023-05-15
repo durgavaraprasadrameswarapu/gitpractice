@@ -1,0 +1,90 @@
+git --version   ---- to check version of the git
+
+touch log/{1..100}.log
+touch bin/{1..100}.exe
+gitingore-----to ignore the files
+touch .gitignore --- wil create the file
+then on directory type 
+
+git diff--- to compare between staging and working dir
+git diff --staged   --- to compare staging and commit  
+
+git flow
+
+git branch --- to view the branches
+
+git branch branchname - to create the new branch
+git checkout -- to switch from one branch to another
+
+git reset –hard command to undo all tracked changes
+
+Manually delete any new files created since the last commit that were not tracked
+A git clean -fxd command can achieve this aim as well
+
+git branch --delete branchname   -- to delete a branch on git
+
+git branch -D branchname -- to delete the unmerged the branch on local repo
+
+to check the data on commits use this command
+ git cat-file -p branchname   ------------this will list the specific branch we want to check the data on commit
+
+git cat-file -p commitid  --- to open the commit this will oepn the folder commit
+git cat-file -p commit id   --- to oepn the commid info
+
+
+Git Merge -- data to move from one branch to another brand
+
+
+when we get merge isssue, to reset the merge use this command
+$ rm -f ./.git/index.lock
+
+$ git reset --merge
+
+git cherry-pick commit id  --- to merge a specific commit into the destination branch
+
+
+git rebase A
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+•First time configuration
+git config --global user.name "<your user name>" 
+git config --global user.email"<your email>"
+
+
+$git remote add origin  <REMOTE_URL>
+$git remote add origin https://github.com/username/new_repo
+# Sets the new remote
+
+
+$git remote -v
+# Verifies the new remote URLNow, 
+
+follow the second set of instructions, “Push an existing repository...”
+$git push -u origin master
+
+git remote add origin
+
+git push -u origin core
+
+
+https://github.com/muralikrishna188/bookstoreonline.git
+
+https://github.com/demoorg-practice/DevOps-Cloud-Architecure
+
+FORK- to get the code other persons remote repo.
+
+
+git remote -v  --to check if any connectivity between Local repo and remote repo
+
+git remote add origin xxxxx- to add the remote repot to local system
+
+git remote add origin (remoterepocode)
+
+git push -u origin core
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+698052325
+
+
+nareshb0303@gmail.com
+naresh@6029

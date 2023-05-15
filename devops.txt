@@ -1,0 +1,30 @@
+Hosting areas
+
+
+virtulization 
+what is hypervisor?
+
+VMware
+
+monolithic
+micro services
+
+docker servers
+contrainers orchastation enginer( qubernetees) to manage the docker serveres
+ 
+sprint
+ in agile, d
+
+scrum
+
+
+storage- version controle
+source code management
+
+
+depedency management == JFROG
+
+
+ nexus repository
+
+depolyment gates 

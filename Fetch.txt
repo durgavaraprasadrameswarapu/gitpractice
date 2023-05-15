@@ -1,0 +1,4 @@
+git fetch  -- it is like readonly when we fetch the branches from remote repository
+
+git pull--- it has the edit feature when we pull from the remote repository.
+
